@@ -1,20 +1,21 @@
 # A Kernel Seedling
-TODO: intro
+TODO: This module adds a file which reports the number of processes that are running. 
 
 ## Building
 ```shell
-TODO: cmd for build
+TODO: make
 ```
 
 ## Running
 ```shell
-TODO: cmd for running binary
+TODO: sudo insmod proc_count.ko
 ```
 TODO: results?
 
 ## Cleaning Up
 ```shell
-TODO: cmd for cleaning the built binary
+TODO: make clean
+TODO: sudo rmmod proc_count.ko
 ```
 
 ## Testing
